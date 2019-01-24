@@ -290,7 +290,7 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -304,4 +304,16 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+@media screen and (max-width:874px){
+  .inside #map-container{
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    top: 132px;
+  }
+  #breadcrumb{
+    width: 100%;
+  }
 }
