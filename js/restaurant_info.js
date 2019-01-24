@@ -148,8 +148,8 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
  */
 createReviewHTML = (review) => {
   let starRating ="";
-  for (let i=0;i<5;i++){
-    if(i<review.rating){
+  for (let i=1;i<=5;i++){
+    if(i<=review.rating){
       starRating+="&#9733;";
     }
     else{
