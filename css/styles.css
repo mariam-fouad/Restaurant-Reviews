@@ -54,7 +54,14 @@ nav {
   height: 80px;
   background-color: #252831;
   text-align:center;
-  display: flex;
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 nav h1 {
@@ -110,7 +117,10 @@ nav h1 a {
   width: 100%;
   background-color: #3397DB;
   align-items: center;
-  display: flex;
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
   padding: 2% 0;
 }
 .filter-options h2 {
@@ -134,7 +144,8 @@ nav h1 a {
 
 @media screen and (max-width:578px){
   .filter-options {
-    flex-flow: column;
+    -webkit-flex-direction:column;
+    flex-direction: column;
     padding: 5% 0;
   }
 }
@@ -146,8 +157,16 @@ nav h1 a {
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
-  display: flex;
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 #restaurants-list li {
