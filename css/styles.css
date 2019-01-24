@@ -313,6 +313,10 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
+#reviews-list li .rating{
+  color: #ff7f00;
+}
+
 #reviews-list div{
   background-color: #242832;
   display: -webkit-box; 

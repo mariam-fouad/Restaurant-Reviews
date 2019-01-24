@@ -170,8 +170,9 @@ createReviewHTML = (review) => {
   head.appendChild(date);
 
   li.appendChild(head);
-  
+
   const rating = document.createElement('p');
+  rating.className="rating";
   rating.innerHTML = starRating;
   li.appendChild(rating);
 
