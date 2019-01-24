@@ -156,16 +156,21 @@ createReviewHTML = (review) => {
       starRating+="&#9734;";
     }
   }
-  
+
   const li = document.createElement('li');
+
+  const head = document.createElement('div');
+
   const name = document.createElement('p');
   name.innerHTML = review.name;
-  li.appendChild(name);
+  head.appendChild(name);
 
   const date = document.createElement('p');
   date.innerHTML = review.date;
-  li.appendChild(date);
+  head.appendChild(date);
 
+  li.appendChild(head);
+  
   const rating = document.createElement('p');
   rating.innerHTML = starRating;
   li.appendChild(rating);
