@@ -1,6 +1,6 @@
 # Restaurant Reviews
 
-For the **Restaurant Reviews** projects, You can enjoy the website using any kind of screens (even screen readers), you also have the luxury of caching and viweing the pages you vist offline.
+For the **Restaurant Reviews** projects, You can enjoy the website using any kind of screens (even screen readers), you also have the luxury of caching and viewing the pages you visit offline.
 
 ## How to run the code
 
